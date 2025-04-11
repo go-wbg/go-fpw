@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	cert9util "github.com/eyedeekay/cert9util/lib"
+	cert9util "github.com/go-wbg/cert9util/lib"
 )
 
 // CertManager handles Firefox certificate operations

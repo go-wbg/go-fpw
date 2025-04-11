@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	ssb "github.com/eyedeekay/go-fpw/ssbapp/lib"
+	ssb "github.com/go-wbg/go-fpw/ssbapp/lib"
 )
 
 func main() {

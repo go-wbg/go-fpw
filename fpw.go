@@ -176,7 +176,7 @@ func appifyUserJS(profile string, offline bool) error {
 		return err
 	}
 	if offline {
-		if err := os.WriteFile(filepath.Join(extDir, "awo@eyedeekay.github.io.xpi"), offlineExtension, 0o644); err != nil {
+		if err := os.WriteFile(filepath.Join(extDir, "awo@go-wbg.github.io.xpi"), offlineExtension, 0o644); err != nil {
 			return err
 		}
 	}
@@ -233,10 +233,10 @@ func DeAppifyUserJS(profile string) error {
 	} else {
 		log.Println("Removed {786c38ae-eac8-41df-ad3b-3c737603bead}.xpi")
 	}
-	if err := os.Remove(filepath.Join(extDir, "awo@eyedeekay.github.io.xpi")); err != nil {
+	if err := os.Remove(filepath.Join(extDir, "awo@go-wbg.github.io.xpi")); err != nil {
 		log.Println(err)
 	} else {
-		log.Println("Removed awp@eyedeekay.github.io.xpi")
+		log.Println("Removed awp@go-wbg.github.io.xpi")
 	}
 	if err := os.Remove(filepath.Join(profile, "user.js")); err != nil {
 		log.Println(err)

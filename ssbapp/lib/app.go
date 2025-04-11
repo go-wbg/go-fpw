@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	fcw "github.com/eyedeekay/go-fpw"
+	fcw "github.com/go-wbg/go-fpw"
 )
 
 // WebAppFunction is the main entry point for the site-specific browser

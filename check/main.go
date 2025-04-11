@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/eyedeekay/go-fpw"
+	"github.com/go-wbg/go-fpw"
 )
 
 func main() {
