@@ -1,4 +1,4 @@
-VERSION=0.0.8
+VERSION=0.0.9
 
 fmt:
 	find . -name '*.go' -exec gofumpt -w -s -extra {} \;
